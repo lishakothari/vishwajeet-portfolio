@@ -1,0 +1,19 @@
+.navbar {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.5rem 0rem;
+    margin-left: 29%;
+}
+
+.navlinks {
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: dashed;
+}
+
+.navlinks :hover{
+    text-decoration: underline;
+    color:black;
+}
