@@ -6,19 +6,19 @@ const Navbar = () => {
   return (
     <nav className='navbar'>
       <div className='navlinks'>
-        <Link to="/" style={{ padding: 15 }}>
+        <Link to="/" className="navlink">
           Home
         </Link>
-        <Link to="/academic-articles" style={{ padding: 15 }}>
+        <Link to="/academic-articles" className="navlink">
           Academic Articles
         </Link>
-        <Link to="/media-articles" style={{ padding: 15 }}>
+        <Link to="/media-articles"  className="navlink">
           Media Articles
         </Link>
-        <Link to="/interviews" style={{ padding: 15 }}>
+        <Link to="/interviews"  className="navlink">
           Interviews
         </Link>
-        <Link to="/resume" style={{ padding: 15 }}>
+        <Link to="/resume"  className="navlink">
           Resume
         </Link>
       </div>

@@ -6,15 +6,42 @@
     align-items: center;
     position: relative;
     padding: 0.5rem 0rem;
-    margin-left: 29%;
+    width: 100%;
 }
 
 .navlinks {
+    margin-left: 60vh;
+}
+.navlink {
     align-items: center;
-    text-decoration: dashed;
+    text-decoration: none;
+    color: black;
+    padding-left: 40px;
 }
 
 .navlinks :hover{
     text-decoration: underline;
     color:black;
+}
+
+@media only screen and (max-width: 700px) {
+    .navlinks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 15vh;
+        padding-top: 8%;
+    } 
+
+    .navlink {
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        padding-bottom: 3%;
+    }
+
+    .navlinks :hover{
+        text-decoration: underline;
+        color:black;
+    }
 }

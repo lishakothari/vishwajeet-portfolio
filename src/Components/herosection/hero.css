@@ -22,3 +22,26 @@
   height: 350px;
   width: 300px;
 }
+
+@media only screen and (max-width: 700px) {
+  .flex-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-left: 4%;
+    margin-top: 10%;
+  }
+
+  .flex-item-left{
+    width: fit-content;
+    text-align: center;
+  }
+
+  .flex-item-right{
+    width: fit-content;
+  }
+  
+  .hero{
+    height: 350px;
+    width: 300px;
+  }
+}
