@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lora&family=Montserrat:wght@300&family=Poppins:wght@100;200&family=Satisfy&family=Tinos&family=Work+Sans:wght@200&display=swap');
+
 .navbar {
     height: 60px;
     display: flex;
@@ -9,7 +11,6 @@
 
 .navlinks {
     align-items: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: dashed;
 }
 
