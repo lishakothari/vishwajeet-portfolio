@@ -1,15 +1,14 @@
 import React from 'react'
 import "./mediaarticles.css";
-import data from "./media.json";
-import image from "../../assets/israel.jpg";
+import {mediadata} from "./media";
 
 function MediaArticles() {
   return (
     <div className='media-page'>
         <div className="media-card">
-            {data.mediadata.map(media =>
+            {mediadata.map(media =>
                 <div key={media.id}>
-                    <img className='media-image' src={image} alt="israel" />
+                    <img className='media-image' src={media.image} alt="israel" />
                     <h2>{media.title}</h2>
                     <p className="media-description">{media.description}</p>
                     <p>{media.publisher}</p>

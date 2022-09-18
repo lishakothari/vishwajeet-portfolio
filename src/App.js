@@ -6,6 +6,8 @@ import { Footer } from './Components/footer/footer';
 import Index from './pages';
 import MediaArticles from './pages/media articles/mediaarticles';
 import Interviews from './pages/interviews/interviews';
+import { NameFooter } from './Components/MainFooter/NameFooter';
+import AcademicArticles from './pages/academic articles/academicarticles';
 
 function App() {
   return (
@@ -15,9 +17,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/media-articles" element={<MediaArticles />} />
+        <Route path="/academic-articles" element={<AcademicArticles />} />
         <Route path="/interviews" element={<Interviews />} />
       </Routes>
       <Footer />
+      <NameFooter />
     </Router>
   );
 }

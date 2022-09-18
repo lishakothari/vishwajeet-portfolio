@@ -1,10 +1,9 @@
-.interview-page {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+.academic-page {
+  display: flex;
+  flex-direction: row;
 }
 
-.interview-card {
+.academic-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     margin: auto;
@@ -12,13 +11,17 @@
     background-color: white;
   }
   
-  .interview-title {
+  .academic-title {
     color: grey;
     font-size: 18px;
     text-align: justify;
   }
+
+  .academic-image{
+    width: 100%;
+  }
   
-  .interview-a {
+  .academic-a {
     border: none;
     outline: 0;
     display: inline-block;
@@ -29,9 +32,8 @@
     cursor: pointer;
     width: 95%;
     font-size: 18px;
-    text-decoration: none;
   }
   
-.interview-a:hover, a:hover {
-    opacity: 0.7;
-  }
+.academic-a:hover, a:hover {
+    text-decoration: none;
+}
